@@ -111,7 +111,7 @@ function bananas(){
 function obstacles(){
   if (frameCount%200 === 0){
     
-    obstacle = createSprite(620,253,50,50);
+    obstacle = createSprite(620,270,50,50);
     obstacle.addAnimation("rock", obstacleImage);
     obstacle.setCollider("circle", 0, 0, 180);
     obstacle.scale = 0.13 ;
